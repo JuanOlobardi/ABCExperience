@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/bf8631ba4b.js" crossorigin="anonymous"></script>
     <title>ABCExperience</title>
 </head>
 <body>
+
   <!-- Navbar -->
   <nav>
     <div class="logo">
-      <a href="#"><img src="imagenes/logoABC.png" alt="logo"/></a>
+      <a href="#"><img src="imagenes/ABC.png" alt="logo"/></a>
     </div>
     <ul>
       <li>
@@ -22,31 +24,9 @@
       <li>
         <a href="contacto.html">Contactanos</a>
       </li>
-      <!--
-      <li>
-        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-      </li>
-      -->
     </ul>
-    <div class="hamburger">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
   </nav>
-  <div class="menubar">
-    <ul>
-      <li>
-        <a href="index.html">Experiencias</a>
-      </li>
-      <li>
-        <a href="nosotros.html">Quiénes somos</a>
-      </li>
-      <li>
-        <a href="contacto.html">Contactanos</a>
-      </li>
-    </ul>
-  </div>
+
   <!----- Experiencias ----->
   <div class="experience-grid">
     <!---- CARD 1 ---->
@@ -59,40 +39,7 @@
         <p class="price">$25,000</p>
       </div>
     </div>
-    <!-- Modal 1-->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <span class="close-button" onclick="closeModal('modal1')">&times;</span>
-      <h2>Recorrido por Caminito</h2>
-      <div class="container">
-        <div>
-          <img src="imagenes/lugares/paseo caminito.jpg" alt="Experience Image">
-        </div>
-        <div class="sobre-experiencia">
-          <h4>Acerca de esta experiencia:</h4>
-          <p>Sumérgete en el encanto del barrio más colorido de Buenos Aires con calles llenas de arte y tradición.</p>
-          <p><span>📍</span>    Buenos Aires</p>
-          <p><span>👥</span>  Para 2 personas</p>
-          <p><span>📆</span>  Se puede usar hasta el 24/10/2025</p>
-          <p class="price">$25,000</p>
-          <img src="imagenes/medios-pago.PNG" alt="">
-        </div>
-      </div>
-      <h3>¡Hacé tu Reserva!</h3>
-      <form>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
-        
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-        
-        <label for="date">Fecha del Recorrido:</label>
-        <input type="date" id="date" name="date" required>
-        
-        <button type="submit" class="submit-button">Reservar</button>
-      </form>
-    </div>
-  </div>
+
     <!---- CARD 2 ----->
     <div class="experience-card card2" onclick="openModal('modal2')">
       <img src="imagenes/lugares/visita cataratas.jpg" alt="Experience Image">
@@ -103,40 +50,7 @@
         <p class="price">$41,000</p>
       </div>
     </div>
-    <!-- Modal 2 -->
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <span class="close-button" onclick="closeModal('modal2')">&times;</span>
-        <h2>Tour Cataratas del Iguazu</h2>
-        <div class="container">
-          <div>
-            <img src="imagenes/lugares/visita cataratas.jpg" alt="Experience Image">
-          </div>
-          <div class="sobre-experiencia">
-            <h4>Acerca de esta experiencia:</h4>
-            <p>Vive la magia de una de las maravillas del mundo. Déjate sorprender por su fuerza y majestuosidad.</p>
-            <p><span>📍</span>    Misiones</p>
-            <p><span>👥</span>  1 persona</p>
-            <p><span>📆</span>  Se puede usar hasta el 21/11/2025</p>
-            <p class="price">$41,000</p>
-            <img src="imagenes/medios-pago.PNG" alt="">
-          </div>
-        </div>
-        <h3>¡Hacé tu Reserva!</h3>
-        <form>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
-          
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-          
-          <label for="date">Fecha del Recorrido:</label>
-          <input type="date" id="date" name="date" required>
-          
-          <button type="submit" class="submit-button">Reservar</button>
-        </form>
-      </div>
-    </div>
+
     <!-- Card 3 -->
     <div class="experience-card card3" onclick="openModal('modal3')">
       <img src="imagenes/lugares/visita cerro.jpg" alt="Experience Image">
@@ -147,40 +61,7 @@
         <p class="price">$59,000</p>
       </div>
     </div>
-    <!-- Modal 3 -->
-    <div id="modal3" class="modal">
-      <div class="modal-content">
-        <span class="close-button" onclick="closeModal('modal3')">&times;</span>
-        <h2>Tour Cerro 7 Colores</h2>
-        <div class="container">
-          <div>
-            <img src="imagenes/lugares/visita cerro.jpg" alt="Experience Image">
-          </div>
-          <div class="sobre-experiencia">
-            <h4>Acerca de esta experiencia:</h4>
-            <p>Descubre este cerro multicolor. Un destino inolvidable que combina naturaleza y cultura andina.</p>
-            <p><span>📍</span>    Jujuy</p>
-            <p><span>👥</span>  2 persona</p>
-            <p><span>📆</span>  Se puede usar hasta el 14/08/2025</p>
-            <p class="price">$59,000</p>
-            <img src="imagenes/medios-pago.PNG" alt="">
-          </div>
-        </div>
-        <h3>¡Hacé tu Reserva!</h3>
-        <form>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
-          
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-          
-          <label for="date">Fecha del Recorrido:</label>
-          <input type="date" id="date" name="date" required>
-          
-          <button type="submit" class="submit-button">Reservar</button>
-        </form>
-      </div>
-    </div>
+
     <!-- Card 4 -->
     <div class="experience-card card4" onclick="openModal('modal4')">
       <img src="imagenes/lugares/visita glaciar.jpg" alt="Experience Image">
@@ -191,39 +72,50 @@
         <p class="price">$71,000</p>
       </div>
     </div>
-    <!-- Modal 4 -->
-    <div id="modal4" class="modal">
-      <div class="modal-content">
-        <span class="close-button" onclick="closeModal('modal4')">&times;</span>
-        <h2>Visita Glaciar Perito Moreno</h2>
-        <div class="container">
-          <div>
-            <img src="imagenes/lugares/visita glaciar.jpg" alt="Experience Image">
-          </div>
-          <div class="sobre-experiencia">
-            <h4>Acerca de esta experiencia:</h4>
-            <p>Maravíllate con la imponente belleza de este gigante de hielo. Un espectáculo natural único.</p>
-            <p><span>📍</span>    Santa Cruz</p>
-            <p><span>👥</span>  2 persona</p>
-            <p><span>📆</span>  Se puede usar hasta el 04/06/2025</p>
-            <p class="price">$71,000</p>
-            <img src="imagenes/medios-pago.PNG" alt="">
+   </div> 
+  <section id="footer">
+    <div class="main-footer">
+      <!---- Información de contacto ---->
+      <div class="logoinfo">
+        <div class="contact-details">
+          <img src="imagenes/ABC B.png" alt="logo"/>
+          <li>
+            <div class="fa fa-phone"></div>
+            <a href="tel:+5491123456789">+54 9 11 2345-6789</a>
+          </li>
+          <li>
+            <div class="fa fa-envelope"></div>
+            <a href="mailto:contacto@tudominio.com">contacto@abc.com</a>
+          </li>
+        </div>
+      </div>
+  
+      <!-- Enlaces sobre nosotros -->
+      <div class="com">
+        <h1>Navegador</h1>
+        <ul>
+          <li><a href="index.html"> 🌟Experiencias</a></li>
+          <li><a href="nosotros.html">🏡Quienes Somos</a></li>
+          <li><a href="contacto.html">📬Contáctanos</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="info">
+        <h1>Redes Sociales</h1>
+        <div class="sociallogos">
+          <div class="logobox">
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube-play"></a>
           </div>
         </div>
-        <h3>¡Hacé tu Reserva!</h3>
-        <form>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
-          
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-          
-          <label for="date">Fecha del Recorrido:</label>
-          <input type="date" id="date" name="date" required>
-          
-          <button type="submit" class="submit-button">Reservar</button>
-        </form>
       </div>
     </div>
+
+    <!-- Pie de página -->
+    <footer>© 2024 Todos los derechos reservados</footer>
+  </section>
 </body>
 </html>
