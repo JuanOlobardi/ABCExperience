@@ -8,6 +8,10 @@
     <title>ABCExperience</title>
 </head>
 <body>
+  <!-- Top banner -->
+  <div class="banner-container">
+    <p></p>
+  </div>
   <!-- Navbar -->
   <nav>
     <div class="logo">
@@ -41,6 +45,67 @@
       <li>
         <a href="contacto.html">Contactanos</a>
       </li>
+    </ul>
+  </div>
+  <div class="carousel">
+    <ul class="slides">
+      <!-- Slide 1 -->
+      <input type="radio" name="radio-buttons" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imagenes/pantalla1.jpg">
+          <div class="hero-text">
+            <h1>Descubrí la ciudad</h1>
+            <p>Una excelente combinación de historia y arte.</p>
+            <button>Más Información</button>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">&lsaquo;</label>
+          <label for="img-2" class="next-slide">&rsaquo;</label>
+        </div>
+      </li>
+  
+      <!-- Slide 2 -->
+      <input type="radio" name="radio-buttons" id="img-2" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imagenes/pantalla2.jpg">
+          <div class="hero-text">
+            <h1>Explorá nuevos horizontes</h1>
+            <p>¡Aventuras por todas partes!</p>
+            <button>Descubrir más</button>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">&lsaquo;</label>
+          <label for="img-3" class="next-slide">&rsaquo;</label>
+        </div>
+      </li>
+  
+      <!-- Slide 3 -->
+      <input type="radio" name="radio-buttons" id="img-3" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="imagenes/pantalla3.jpg">
+          <div class="hero-text">
+            <h1>Viajá con Nosotros</h1>
+            <p>Y te llevaremos a un viaje inolvidable</p>
+            <button>¡Yo quiero!</button>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">&lsaquo;</label>
+          <label for="img-1" class="next-slide">&rsaquo;</label>
+        </div>
+      </li>
+
+      <!-- Puntos navegación -->
+      <div class="carousel-dots">
+        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+      </div>
     </ul>
   </div>
 
@@ -87,6 +152,127 @@
         <p>📍 Santa Cruz</p>
         <p>👤 2 personas</p>
         <p class="price">$71,000</p>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="experience-card">
+      <img src="imagenes/chill/dia de spa.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Dia de Spa</h3>
+        <p>📍 San Luis</p>
+        <p>👤 2 personas</p>
+        <p class="price">$105,000</p>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="experience-card">
+      <img src="imagenes/chill/masajes.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Sesión de Masaje</h3>
+        <p>📍 La Pampa</p>
+        <p>👤 1 persona</p>
+        <p class="price">$80,000</p>
+      </div>
+    </div>
+    <!-- Card 7 -->
+    <div class="experience-card">
+      <img src="imagenes/chill/sauna.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Sauna</h3>
+        <p>📍 San Juan</p>
+        <p>👤 2 personas</p>
+        <p class="price">$100,000</p>
+      </div>
+    </div>
+    <!-- Card 8 -->
+    <div class="experience-card">
+      <img src="imagenes/chill/paseo bici.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Paseo en Bicicleta</h3>
+        <p>📍 Buenos Aires</p>
+        <p>👤 4 personas</p>
+        <p class="price">$55,000</p>
+      </div>
+    </div>
+    <!-- Card 9 -->
+    <div class="experience-card">
+      <img src="imagenes/actividades/cata de vino.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Cata de Vino</h3>
+        <p>📍 Mendoza</p>
+        <p>👤 2 personas</p>
+        <p class="price">$74,000</p>
+      </div>
+    </div>
+    <!-- Card 10 -->
+    <div class="experience-card">
+      <img src="imagenes/actividades/clase de tango.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Clase de Tango</h3>
+        <p>📍 Buenos Aires</p>
+        <p>👤 1 personas</p>
+        <p class="price">$15,000</p>
+      </div>
+    </div>
+    <!-- Card 11 -->
+    <div class="experience-card">
+      <img src="imagenes/actividades/museo.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Museo Provincial de Bellas Artes "Emilio Caraffa"</h3>
+        <p>📍 Córdoba</p>
+        <p>👤 1 personas</p>
+        <p class="price">$12,000</p>
+      </div>
+    </div>
+    <!-- Card 12 -->
+    <div class="experience-card">
+      <img src="imagenes/actividades/zoo.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Visita al Zoo</h3>
+        <p>📍 Santa Fe</p>
+        <p>👤 1 personas</p>
+        <p class="price">$38,000</p>
+      </div>
+    </div>
+    <!-- Card 13 -->
+    <div class="experience-card">
+      <img src="imagenes/extremo/paracaidas.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Paracaidismo</h3>
+        <p>📍 Córdoba</p>
+        <p>👤 1 personas</p>
+        <p class="price">$198,000</p>
+      </div>
+    </div>
+    <!-- Card 14 -->
+    <div class="experience-card">
+      <img src="imagenes/extremo/puenting.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Puenting</h3>
+        <p>📍 Salta</p>
+        <p>👤 1 personas</p>
+        <p class="price">$39,000</p>
+      </div>
+    </div>
+    <!-- Card 15 -->
+    <div class="experience-card">
+      <img src="imagenes/extremo/rafting.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Rafting</h3>
+        <p>📍 Mendoza</p>
+        <p>👤 3 personas</p>
+        <p class="price">$130,000</p>
+      </div>
+    </div>
+    <!-- Card 16 -->
+    <div class="experience-card">
+      <img src="imagenes/extremo/tirolesa.jpg" alt="Experience Image">
+      <div class="experience-info">
+        <h3>Tirolesa</h3>
+        <p>📍 Catamarca</p>
+        <p>👤 4 personas</p>
+        <p class="price">$51,000</p>
       </div>
     </div>
    </div> 
