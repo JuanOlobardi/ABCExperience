@@ -140,6 +140,47 @@ nav ul li a:hover {
   background-color: #f5f5f5;
 }
 
+.bloque-solapas {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.bloque-solapas h2 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.solapas-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+
+.solapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #f2f6fc;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+
+.solapa:hover {
+  background-color: #000000;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
 
 /* - - - - - - - FOOTER - - - - - - - - - */
