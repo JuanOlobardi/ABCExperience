@@ -60,6 +60,7 @@ blockquote {
   flex: 1;
   min-width: 300px;
   text-align: center;
+  margin-bottom: 80px;  /* separa la imagen del footer */
 }
 
 .imagen img {
